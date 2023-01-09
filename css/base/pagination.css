@@ -1,0 +1,84 @@
+/* .table__paging {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #bbb;
+}
+.table__paging--left {
+  font-size: 15px;
+  flex-basis: 240px;
+}
+
+.table__paging--center {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  /* justify-content: center; 
+}*/
+
+.pagination {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 8px; */
+  padding: 0px 20px;
+}
+
+.pagination__center {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #019160; */
+}
+
+.paging__button {
+  height: 30px;
+  width: 30px;
+  padding: 1px 6px;
+  margin: 0px 4px;
+  border-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border: 1px solid transparent;
+  /* hover  */
+  background-color: #ffffff;
+}
+
+.paging__button:hover {
+  border: 1px solid #bbbbbb;
+}
+
+.paging__button--first {
+  background-image: url(../../assets/icon/btn-firstpage.svg);
+}
+.paging__button--pre {
+  background-image: url(../../assets/icon/btn-prev-page.svg);
+}
+.paging__number {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  background-color: #ffffff;
+  border: 1px solid #bbbbbb;
+}
+.paging__number--selected {
+  background-color: #019160;
+}
+.paging__button--next {
+  background-image: url(../../assets/icon/btn-next-page.svg);
+}
+.paging__button--last {
+  background-image: url(../../assets/icon/btn-lastpage.svg);
+}
+
+.paging__number:hover {
+  background-color: #bbbbbb;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Google Fonts Regular;
+  src: url(/FE-FAQ/faqpage/assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+  font-family: Google Fonts Bold;
+  src: url(/FE-FAQ/faqpage/assets//font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+  font-family: Google Fonts Italic;
+  src: url(/FE-FAQ/faqpage/assets/font/GoogleSans-Italic.otf);
+}
+
+@font-face {
+  font-family: Google Fonts Medium;
+  src: url(/FE-FAQ/faqpage//assets/font/GoogleSans-Medium.otf);
+}
+
+body {
+  font-family: Google Fonts Regular;
+  /* background-color: antiquewhite; */
+}

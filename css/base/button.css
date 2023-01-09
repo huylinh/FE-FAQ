@@ -1,0 +1,78 @@
+.button {
+  background-color: #019160;
+  border-radius: 4px;
+  height: 40px;
+  color: #fff;
+  padding: 0 24px 0 24px;
+  text-align: center;
+  border: none;
+  min-width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2fbe8e;
+}
+
+.button:active {
+  background-color: #01b175;
+}
+
+.button__icon {
+  height: 48px;
+  width: 48px;
+  padding: 16px 16px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-color: rgb(248, 240, 240);
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button__icon--add {
+  background-image: url(../../assets/icon/duplicate.png);
+}
+
+.button__icon--save {
+  background-image: url(../../assets/icon/success-icon.png);
+}
+
+.button__icon--delete {
+  background-image: url(../../assets/icon/delete.png);
+  background-size: 36px 36px;
+}
+
+.button__icon--edit {
+  background-image: url(../../assets/icon/icons8-edit-image-24.png);
+  background-size: 36px 36px;
+}
+
+.button__icon--plus {
+  background-image: url(../../assets/icon/icons8-add-new-24.png);
+}
+
+.question__icon {
+  transform: rotate(90deg);
+}
+
+.button--cancel {
+  background-color: rgb(187, 187, 187);
+}
+
+.button--cancel:hover,
+.button--cancel:focus {
+  background-color: rgba(187, 187, 187, 0.841);
+}
+
+.button--cancel:active {
+  background-color: rgb(187, 187, 187);
+}
+
+#edit-title-delete {
+  background-color: red;
+}

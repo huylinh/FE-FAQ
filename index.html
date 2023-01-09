@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Quản lí những câu hỏi thường gặp</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="nav__logo">
+        <a href="">Menu</a>
+      </div>
+      <div class="nav__center">Câu hỏi thường gặp</div>
+      <div class="nav__user">Nguyễn Huy Linh</div>
+      <!-- <div class="sub-title">
+        Không thể tìm thấy câu hỏi, bạn có thể tìm thông qua các câu hỏi thường
+        gặp mà chúng tôi đã tổng hợp
+      </div> -->
+    </div>
+    <div class="container grid-2-column">
+      <div class="faq-title-controller flex-column">
+        <div class="title">Chủ đề</div>
+        <!-- <div class="button__icon button__icon--add"></div>
+      <div class="button__icon button__icon--delete"></div> -->
+      </div>
+      <div class="faq-container">
+        <div id="displayTitle">Câu hỏi</div>
+        <div class="faq-controller flex-column">
+          <div class="search">
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm" />
+          </div>
+          <div class="button__icon button__icon--add"></div>
+          <div class="button__icon button__icon--delete"></div>
+          <div class="button__icon button__icon--edit"></div>
+        </div>
+      </div>
+
+      <div class="title-wrapper">
+        <div class="faq-title-list">
+          <!-- <div class="faq-title selected">Thanh toán</div>
+      <div class="faq-title">Trả hàng</div>
+      <div class="faq-title">Đổi trả</div>
+      <div class="faq-title">Khuyến mãi</div> -->
+        </div>
+        <div id="button_addTitle" class="button__icon--plus"></div>
+      </div>
+
+      <div class="faq-wrapper">
+        <div class="faq-list">
+          <!-- <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nobis
+            eos rerum quis dolores et quaerat animi fuga, beatae esse numquam,
+            possimus aliquid quidem itaque non facere libero error nisi.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <div class="question__content">
+              Nếu như em đã mua sản phẩm bên mình và muốn đổi trả thì làm thế
+              nào ạ?
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right question__icon"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          <div class="faq__answer">
+            Trong trường hợp em mua trong 7 ngày thì em có thể đổi trả được sản
+            phẩm
+          </div>
+        </div> -->
+        </div>
+        <div class="pagination">
+          <div class="pagination__left">
+            <b id="numberOfPage">01-20/123</b> câu hỏi
+          </div>
+          <div class="pagination__center">
+            <button class="paging__button paging__button--first"></button>
+            <button class="paging__button paging__button--pre"></button>
+            <div class="paging__numbers">
+              <button class="paging__number paging__number--selected">1</button>
+              <button class="paging__number">2</button>
+              <button class="paging__number">3</button>
+              <button class="paging__number">4</button>
+              <button class="paging__number">5</button>
+              <button class="paging__number">6</button>
+            </div>
+            <button class="paging__button paging__button--next"></button>
+            <button class="paging__button paging__button--last"></button>
+          </div>
+          <div class="pagination__right"></div>
+          <div class="table__paging--right">
+            <select>
+              <option value="5">5 Câu/Page</option>
+              <option value="10">10 Câu/Page</option>
+              <option value="15">15 Câu/Page</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Thêm faq mới -->
+      <div id="faqForm" class="form" hidden>
+        <div class="form__content">
+          <div class="form__header">Thêm câu hỏi</div>
+          <div class="form__body">
+            <div class="form__faq">
+              <label for="" class="form__question">Câu hỏi</label>
+              <input id="form__question" name="question" type="text" />
+              <label for="">Câu trả lời</label>
+              <textarea
+                id="form__answer"
+                name="answer"
+                rows="13"
+                cols="50"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form__footer">
+            <button id="faq-cancel" class="button button--cancel">Hủy</button>
+            <button id="faq-save" class="button button--save">Lưu</button>
+          </div>
+        </div>
+      </div>
+      <div id="titleForm" class="form" hidden>
+        <div class="form__content">
+          <div class="form__header">Thêm chủ đề</div>
+          <div class="form__body" id="form__title--body">
+            <label for="" class="form__question">Chủ đề</label>
+            <input id="title-name" name="title" type="text" />
+          </div>
+          <div class="form__footer">
+            <button id="title-cancel" class="button button--cancel">Hủy</button>
+            <button id="title-save" class="button button--save">Lưu</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="editForm" class="form" hidden>
+        <div class="form__content">
+          <div class="form__header">Sửa chủ đề</div>
+          <div class="form__body" id="form__title--body">
+            <label for="" class="form__question">Chủ đề</label>
+            <input name="title" type="text" />
+          </div>
+          <div class="form__footer">
+            <button id="edit-title-cancel" class="button button--cancel">
+              Hủy
+            </button>
+            <button id="edit-title-save" class="button button--save">
+              Lưu
+            </button>
+            <button id="edit-title-delete" class="button button--save">
+              Xóa
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/jquery-3.6.3.min.js"></script>
+  <script src="./js/script.js"></script>
+</html>

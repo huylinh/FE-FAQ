@@ -1,0 +1,112 @@
+@import url(./base/general.css);
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/layout.css);
+@import url(./base/event.css);
+@import url(./base/pagination.css);
+@import url(./base/form.css);
+/*  */
+
+.faq-title-controller {
+  border-right: 1px solid #bbb;
+  font-size: 20px;
+  color: #2fbe8e;
+  padding: 10px;
+  /* background-color: bisque; */
+}
+
+.faq-controller {
+  justify-content: flex-end;
+  /* border: 1px solid #bbb; */
+  padding: 0px 10px;
+  /* background-color: blanchedalmond; */
+}
+
+.title-wrapper {
+  border: 1px solid #bbb;
+  overflow-y: scroll;
+}
+
+.faq-title-list {
+  margin: 10px;
+  /* background-color: azure; */
+}
+
+.faq-title {
+  height: 30px;
+  font-size: 16px;
+  line-height: 1.1;
+  padding: 10px;
+}
+
+.faq-title:hover,
+.faq-title:focus {
+  background-color: #2fbe8e;
+}
+
+.faq-title:active {
+  background-color: #01b175;
+}
+
+#button_addTitle {
+  height: 30px;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: contain;
+  border-top: 0.25px solid #bbb;
+  cursor: pointer;
+}
+
+.faq-wrapper {
+  height: calc(100vh - 150px);
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
+}
+.faq-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-list {
+  padding: 10px;
+  flex: 1;
+  /* font-size: 24px; */
+  border: 1px solid #bbb;
+  overflow-y: scroll;
+  /* background-color: antiquewhite; */
+}
+.faq {
+}
+
+.faq__question {
+  padding: 8px;
+  height: 48px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-radius: 4px; */
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+.faq__answer {
+  /* display: none; */
+  padding: 16px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+#displayTitle {
+  padding: 20px;
+  font-size: 20px;
+}
