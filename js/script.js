@@ -236,12 +236,12 @@ function titleEvent() {
     loadFaq();
   });
 
-  $(".faq-title").dblclick(function () {
-    $("#editForm input").val(``);
-    titleEdit = $(this).data("entity");
-    $("#editForm input").val(`${titleEdit.name}`);
-    $("#editForm").show();
-  });
+  // $(".faq-title").dblclick(function () {
+  //   $("#editForm input").val(``);
+  //   titleEdit = $(this).data("entity");
+  //   $("#editForm input").val(`${titleEdit.name}`);
+  //   $("#editForm").show();
+  // });
 }
 
 function faqEvent() {
@@ -252,13 +252,13 @@ function faqEvent() {
   });
 
   //   xóa câu hỏi
-  $(".faq").dblclick(function () {
-    $(this).siblings().children().removeClass("faq-selected");
-    $(this).children().toggleClass("faq-selected");
-    // this.classList.add("faq-selected");
-    selectedFaqId = $(this).data("id");
-    selectedFaqEntity = $(this).data("entity");
-  });
+  // $(".faq").dblclick(function () {
+  //   $(this).siblings().children().removeClass("faq-selected");
+  //   $(this).children().toggleClass("faq-selected");
+  //   // this.classList.add("faq-selected");
+  //   selectedFaqId = $(this).data("id");
+  //   selectedFaqEntity = $(this).data("entity");
+  // });
 }
 
 function loadTitle() {
