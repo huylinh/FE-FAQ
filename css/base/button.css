@@ -76,3 +76,8 @@
 #edit-title-delete {
   background-color: red;
 }
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
